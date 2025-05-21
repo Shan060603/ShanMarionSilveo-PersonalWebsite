@@ -11,7 +11,6 @@ import {
   useDisclosure,
   Stack,
   useColorModeValue,
-  Button,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { usePathname } from "next/navigation";
@@ -28,16 +27,20 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const pathname = usePathname();
 
+  const activeColor = useColorModeValue("blue.600", "blue.300");
+  const hoverBg = useColorModeValue("gray.100", "gray.700");
+  const bgColor = useColorModeValue("white", "gray.800");
+
   const activeStyle = {
     fontWeight: "bold",
-    color: useColorModeValue("blue.600", "blue.300"),
+    color: activeColor,
     borderBottom: "2px solid",
-    borderColor: useColorModeValue("blue.600", "blue.300"),
+    borderColor: activeColor,
   };
 
   return (
     <Box
-      bg={useColorModeValue("white", "gray.800")}
+      bg={bgColor}
       px={6}
       boxShadow="sm"
       position="sticky"
@@ -66,10 +69,7 @@ export default function Navbar() {
               px={2}
               py={1}
               rounded={"md"}
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("gray.100", "gray.700"),
-              }}
+              _hover={{ textDecoration: "none", bg: hoverBg }}
               {...(pathname === nav.href ? activeStyle : {})}
             >
               {nav.label}
@@ -90,10 +90,7 @@ export default function Navbar() {
                 px={2}
                 py={1}
                 rounded={"md"}
-                _hover={{
-                  textDecoration: "none",
-                  bg: useColorModeValue("gray.100", "gray.700"),
-                }}
+                _hover={{ textDecoration: "none", bg: hoverBg }}
                 {...(pathname === nav.href ? activeStyle : {})}
                 onClick={onClose}
               >

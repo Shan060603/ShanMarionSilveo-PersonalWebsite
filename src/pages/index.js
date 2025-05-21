@@ -146,7 +146,6 @@ export default function HomePage() {
                     alt="Shan Marion Silveo"
                     w="256px"
                     h="350px"
-                    // objectFit="cover"
                   />
                 </Box>
               </Box>
