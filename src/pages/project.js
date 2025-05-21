@@ -25,11 +25,11 @@ const projects = [
     description:
       "A web-based application for managing and tracking assets, including inventory management, asset tracking, asset assigning, and reporting.",
     images: [
-      "https://i.imgur.com/4qgIdnV.jpeg",
-      "https://i.imgur.com/DPkSfEw.jpeg",
-      "https://i.imgur.com/fqLG0Od.jpeg",
-      "https://i.imgur.com/GSgXaEq.jpeg",
-      "https://i.imgur.com/MavAgA0.jpeg",
+      "https://i.imgur.com/b2KDDVK.jpeg",
+      "https://i.imgur.com/cVoiM60.jpeg",
+      "https://i.imgur.com/Rflc0B4.jpeg",
+      "https://i.imgur.com/OBiSwwu.jpeg",
+      "https://i.imgur.com/h2ej0ji.jpeg",
     ],
     frontendUrl:
       "https://github.com/TechnoPH-OJTs/asset-management-system-frontend",
@@ -39,35 +39,43 @@ const projects = [
   {
     title: "2 Factor Authentication Register",
     description:
-      "Secure registration system that supports two-factor authentication using OTP and QR codes for better user protection.",
+      "Secure registration system that supports two-factor authentication using OTP via gmail for better user protection.",
     images: [
-      "https://i.imgur.com/BqjwXwx.png",
-      "https://i.imgur.com/jSTOf5L.png",
+      "https://i.imgur.com/RdY591S.png",
+      "https://i.imgur.com/1ziLfTJ.png",
+      "https://i.imgur.com/qWWc6CI.png",
+      "https://i.imgur.com/axKakHa.png",
     ],
-    frontendUrl: "https://github.com/yourusername/2fa-frontend",
-    backendUrl: "https://github.com/yourusername/2fa-backend",
+    frontendUrl:
+      "https://github.com/TechnoPH-OJTs/2FactorAuthentication-Team2-Frontend",
+    backendUrl:
+      "https://github.com/TechnoPH-OJTs/2FactorAuthentication-Team2-Backend",
   },
   {
     title: "Carpass and Parking Management System",
     description:
-      "Automates the registration and tracking of vehicle entries, exits, and parking history in residential and commercial facilities.",
+      "A web application for managing car passes and parking spaces, including user registration, car pass issuance, and parking management.",
     images: [
-      "https://i.imgur.com/TWmIL6e.png",
-      "https://i.imgur.com/9GpdeBD.png",
+      "https://i.imgur.com/kFwUiqG.png",
+      "https://i.imgur.com/SWwME6K.png",
+      "https://i.imgur.com/gc2gjrA.png",
+      "https://i.imgur.com/JD5W9ei.png",
+      "https://i.imgur.com/Qj96KPU.png",
     ],
-    frontendUrl: "https://github.com/yourusername/carpass-frontend",
-    backendUrl: "https://github.com/yourusername/carpass-backend",
+    frontendUrl:
+      "https://github.com/Shan060603/carpass-and-parking-management-system",
   },
   {
     title: "Water and Laundry System",
     description:
-      "Manages usage records and schedules for water distribution and laundry machines in shared housing facilities.",
+      "Allows to add order for water and laundry services. This system includes user registration, order management, payment processing, and transaction history.",
     images: [
-      "https://i.imgur.com/kL6D5FV.png",
-      "https://i.imgur.com/zv4Wlxu.png",
+      "https://i.imgur.com/eo6IQNB.png",
+      "https://i.imgur.com/1KhLwCE.png",
+      "https://i.imgur.com/M5WIpPE.png",
+      "https://i.imgur.com/G4b2H98.png",
     ],
-    frontendUrl: "https://github.com/yourusername/laundry-frontend",
-    backendUrl: "https://github.com/yourusername/laundry-backend",
+    frontendUrl: "https://github.com/Shan060603/water-and-laundry-system",
   },
 ];
 

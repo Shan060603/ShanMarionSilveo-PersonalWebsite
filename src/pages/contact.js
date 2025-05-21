@@ -106,7 +106,8 @@ export default function ContactPage() {
                   Location
                 </Text>
                 <Text fontSize="lg" fontWeight="medium">
-                  Iloilo City, Philippines
+                  4th St. Lawaan Village, Balantang, Jaro, Iloilo City,
+                  Philippines
                 </Text>
               </Box>
             </Flex>
