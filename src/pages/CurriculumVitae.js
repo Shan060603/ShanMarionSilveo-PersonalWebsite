@@ -1,7 +1,15 @@
 "use client";
 
 import React from "react";
-import { Box, Flex, Image, useColorModeValue, Heading } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Image,
+  useColorModeValue,
+  Heading,
+  Button,
+  Link,
+} from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import TopNav from "../components/topnav";
 
@@ -11,6 +19,9 @@ export default function CVPage() {
   const bg = useColorModeValue("gray.50", "gray.900");
   const cardBg = useColorModeValue("white", "gray.800");
   const headingColor = useColorModeValue("gray.800", "gray.100");
+
+  const downloadLink =
+    "https://drive.google.com/uc?export=download&id=1RO0oyISmTaJUgZLdQVQDEYI7cG85OF9a";
 
   return (
     <>
@@ -38,11 +49,11 @@ export default function CVPage() {
             borderRadius="md"
             bg={cardBg}
             p={{ base: 4, md: 6 }}
+            textAlign="center"
           >
             <Heading
               size={{ base: "lg", md: "xl" }}
               mb={{ base: 4, md: 6 }}
-              textAlign="center"
               color={headingColor}
             >
               Curriculum Vitae
@@ -53,7 +64,17 @@ export default function CVPage() {
               w="100%"
               objectFit="contain"
               borderRadius="md"
+              mb={6}
             />
+            <Link
+              href={downloadLink}
+              isExternal
+              _hover={{ textDecoration: "none" }}
+            >
+              <Button colorScheme="blue" size="md">
+                Download CV
+              </Button>
+            </Link>
           </MotionBox>
         </Flex>
       </Box>

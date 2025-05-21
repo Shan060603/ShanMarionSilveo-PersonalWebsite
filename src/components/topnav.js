@@ -19,7 +19,6 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "Projects", href: "/project" },
   { label: "Curriculum Vitae", href: "/CurriculumVitae" },
-  { label: "Certificates", href: "/certificate" },
   { label: "Contact", href: "/contact" },
 ];
 
