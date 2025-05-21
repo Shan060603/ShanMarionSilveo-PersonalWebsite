@@ -151,18 +151,18 @@ const ProjectCarousel = ({
         <Flex
           position="absolute"
           top="50%"
-          transform="translateY(-50%)"
-          width="100%"
-          px={{ base: 2, sm: 4 }}
+          left={0}
+          right={0}
           justify="space-between"
+          px={4}
+          transform="translateY(-50%)"
           pointerEvents="none"
-          zIndex={1}
         >
           <IconButton
             aria-label="Previous"
             icon={<ChevronLeftIcon />}
             onClick={prev}
-            size={{ base: "xs", sm: "sm" }}
+            size="sm"
             bg="rgba(0,0,0,0.4)"
             color="white"
             _hover={{ bg: "rgba(0,0,0,0.6)" }}
@@ -173,7 +173,7 @@ const ProjectCarousel = ({
             aria-label="Next"
             icon={<ChevronRightIcon />}
             onClick={next}
-            size={{ base: "xs", sm: "sm" }}
+            size="sm"
             bg="rgba(0,0,0,0.4)"
             color="white"
             _hover={{ bg: "rgba(0,0,0,0.6)" }}
