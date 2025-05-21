@@ -6,7 +6,6 @@ import {
   Flex,
   Heading,
   Text,
-  Button,
   Link,
   Stack,
   Image,
@@ -55,7 +54,7 @@ export default function HomePage() {
           >
             <Flex align="center" gap={3} mb={4}>
               <Heading as="h1" size="lg" lineHeight="short">
-                Hello, I'm Shan Marion Silveo
+                Hello, I&apos;m Shan Marion Silveo
                 <br />
                 Welcome to my Personal Website.
               </Heading>
@@ -63,7 +62,7 @@ export default function HomePage() {
 
             <Stack spacing={4} fontSize="lg">
               <Text>
-                I`m a graduate of{" "}
+                I&apos;m a graduate of{" "}
                 <Text as="span" color="red.500" fontWeight="medium">
                   Central Philippine University
                 </Text>{" "}
@@ -107,7 +106,8 @@ export default function HomePage() {
 
               <Box>
                 <Text fontSize="sm" color={subTextColor}>
-                  If you're looking to work with me, feel free to email me at{" "}
+                  If you&apos;re looking to work with me, feel free to email me
+                  at{" "}
                   <Text as="span" fontWeight="medium" color={textColor}>
                     shan.silveo@gmail.com
                   </Text>
@@ -156,14 +156,15 @@ export default function HomePage() {
                   href="https://github.com/Shan060603"
                   aria-label="Github"
                   _hover={{ color: "blue.400" }}
+                  isExternal
                 >
                   <Github size={24} />
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/shan-marion-silveo-950926291"
                   aria-label="LinkedIn"
-                  isExternal
                   _hover={{ color: "blue.700" }}
+                  isExternal
                 >
                   <Linkedin size={24} />
                 </Link>
