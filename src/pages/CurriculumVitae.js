@@ -21,7 +21,7 @@ export default function CVPage() {
   const headingColor = useColorModeValue("gray.800", "gray.100");
 
   const downloadLink =
-    "https://drive.google.com/uc?export=download&id=1RO0oyISmTaJUgZLdQVQDEYI7cG85OF9a";
+    "https://drive.google.com/uc?export=download&id=1QeSrF2DsBqpuIFC4KSF6Q14c6qZDIeJz";
 
   return (
     <>
@@ -59,7 +59,7 @@ export default function CVPage() {
               Curriculum Vitae
             </Heading>
             <Image
-              src="https://i.imgur.com/3u4LfQ0.png"
+              src="https://imgur.com/yxywgw4.png"
               alt="Curriculum Vitae - Shan Marion Silveo"
               w="100%"
               objectFit="contain"
