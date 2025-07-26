@@ -21,7 +21,7 @@ export default function CVPage() {
   const headingColor = useColorModeValue("gray.800", "gray.100");
 
   const downloadLink =
-    "https://drive.google.com/uc?export=download&id=1QeSrF2DsBqpuIFC4KSF6Q14c6qZDIeJz";
+    "https://drive.google.com/uc?export=download&id=1MSBbudWMOMe9ck7UMReKY6qzEEcsX4a1";
 
   return (
     <>
