@@ -51,13 +51,6 @@ export default function CVPage() {
             p={{ base: 4, md: 6 }}
             textAlign="center"
           >
-            <Heading
-              size={{ base: "lg", md: "xl" }}
-              mb={{ base: 4, md: 6 }}
-              color={headingColor}
-            >
-              Curriculum Vitae
-            </Heading>
             <Image
               src="https://imgur.com/yxywgw4.png"
               alt="Curriculum Vitae - Shan Marion Silveo"
@@ -72,7 +65,7 @@ export default function CVPage() {
               _hover={{ textDecoration: "none" }}
             >
               <Button colorScheme="blue" size="md">
-                Download CV
+                Download 
               </Button>
             </Link>
           </MotionBox>
